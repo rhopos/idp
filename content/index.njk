@@ -49,7 +49,7 @@ numberOfLatestPostsToShow: 3
 
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Останні {{ latestPostsCount }} дописи{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h1>Останні {{ latestPostsCount }} допис{% if latestPostsCount != 1 %}ів{% endif %}</h1>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
