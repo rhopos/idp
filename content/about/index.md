@@ -4,6 +4,8 @@ eleventyNavigation:
   key: About Me
   order: 3
 ---
-# About Me
+# Про проєкт
 
-I am a person that writes stuff.
+Вся інформація взята з відкритих джерел.
+
+Якщо вашої організації/церкви немає в списку, або ви побачили помилки, будь ласка, напишіть на пошту kthopos@hey.com
